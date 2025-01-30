@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Taskpane</title>
+</head>
+
+<body>
+    <h1>Email Information</h1>
+    <div id="output"></div>
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const id = params.get("id");
+        const error = params.get("error");
+        const output = document.getElementById("output");
+
+        if (id) {
+            output.innerText = `Email ID: ${id}`;
+        } else if (error) {
+            output.innerText = `Error: ${error}`;
+        } else {
+            output.innerText = "No data to display.";
+        }
+    </script>
+</body>
+
+</html>
