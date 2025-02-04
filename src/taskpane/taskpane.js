@@ -58,9 +58,6 @@ async function getItemInfo(selectedItems) {
 // Gets the sender's email address of each selected message.
 async function getSenderEmailAddress(item) {
   const itemId = item.itemId;
-
-  console.log(`Item ID: ${itemId}`);
-
   await new Promise((resolve) => {
     Office.context.mailbox.loadItemByIdAsync(itemId, (result) => {
       if (result.status === Office.AsyncResultStatus.Failed) {
