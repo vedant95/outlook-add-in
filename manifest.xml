@@ -5,7 +5,7 @@
   <ProviderName>Infotechtion</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Email Keep App"/>
-  <Description DefaultValue="Email rentaintion application"/>
+  <Description DefaultValue="Email retention application"/>
   <IconUrl DefaultValue="https://tendulkarcommon.blob.core.windows.net/assets/icon-64.png"/>
   <HighResolutionIconUrl DefaultValue="https://tendulkarcommon.blob.core.windows.net/assets/icon-128.png"/>
   <SupportUrl DefaultValue="https://outlook-add-in-psi.vercel.app/taskpane.html"/>
